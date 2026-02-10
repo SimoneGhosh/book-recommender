@@ -2,7 +2,7 @@ import streamlit as st
 from backend import get_chatbot_response
 
 # 🎨 TODO: Customize your chatbot's appearance!
-st.title("🤖 My Custom Chatbot")
+st.title("Book Recommender")
 st.markdown("Ask me anything about your chosen website!")
 
 # Initialize chat history

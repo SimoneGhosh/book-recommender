@@ -14,8 +14,8 @@ load_dotenv()
 # - Sports: "https://www.espn.com/nba/"
 # - Movies/TV: "https://www.imdb.com/title/tt0944947/" (Game of Thrones)
 # - Music: "https://www.billboard.com/charts/hot-100/"
-WEBSITE_URLS = ["https://www.nytimes.com/ca/section/books/review",
-                "https://www.goodreads.com/"]
+WEBSITE_URLS = ["https://www.goodreads.com/shelf/show/recommended",
+                "https://www.goodreads.com/book/similar/95443525-the-housemaid"]
 
 print(f"📥 Loading content from {len(WEBSITE_URLS)} URL(s)...")
 
